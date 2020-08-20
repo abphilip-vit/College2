@@ -1,0 +1,23 @@
+|PISO
+din[0] => temp~3.DATAB
+din[1] => temp~2.DATAB
+din[2] => temp~1.DATAB
+din[3] => temp~0.DATAB
+clk => dout~reg0.CLK
+clk => temp[0].CLK
+clk => temp[1].CLK
+clk => temp[2].CLK
+clk => temp[3].CLK
+reset => temp~4.OUTPUTSELECT
+reset => temp~5.OUTPUTSELECT
+reset => temp~6.OUTPUTSELECT
+reset => temp~7.OUTPUTSELECT
+reset => dout~reg0.ENA
+load => temp~0.OUTPUTSELECT
+load => temp~1.OUTPUTSELECT
+load => temp~2.OUTPUTSELECT
+load => temp~3.OUTPUTSELECT
+load => dout~0.OUTPUTSELECT
+dout <= dout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

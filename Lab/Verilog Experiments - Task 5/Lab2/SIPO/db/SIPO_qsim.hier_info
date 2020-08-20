@@ -1,0 +1,16 @@
+|SIPO
+din => s~0.DATAA
+clk => s[0].CLK
+clk => s[1].CLK
+clk => s[2].CLK
+clk => s[3].CLK
+reset => s~0.OUTPUTSELECT
+reset => s~1.OUTPUTSELECT
+reset => s~2.OUTPUTSELECT
+reset => s~3.OUTPUTSELECT
+dout[0] <= s[0].DB_MAX_OUTPUT_PORT_TYPE
+dout[1] <= s[1].DB_MAX_OUTPUT_PORT_TYPE
+dout[2] <= s[2].DB_MAX_OUTPUT_PORT_TYPE
+dout[3] <= s[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

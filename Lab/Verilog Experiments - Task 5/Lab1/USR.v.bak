@@ -1,0 +1,5 @@
+// Universal Shift Register 
+// Verilog code for a D flip flop
+module USR()
+
+endmodule 

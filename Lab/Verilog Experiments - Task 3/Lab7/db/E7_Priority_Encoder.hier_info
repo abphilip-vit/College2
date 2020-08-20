@@ -1,0 +1,15 @@
+|E7_Priority_Encoder
+D[3] => comb.IN0
+D[3] => comb.IN1
+D[3] => WideOr0.IN0
+D[2] => comb.IN1
+D[2] => WideOr0.IN1
+D[2] => Y2.IN0
+D[1] => Y2.IN1
+D[1] => WideOr0.IN2
+D[0] => WideOr0.IN3
+X <= comb.DB_MAX_OUTPUT_PORT_TYPE
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+V <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

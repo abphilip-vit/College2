@@ -1,0 +1,20 @@
+module E9_Demux(d,s,y);
+input d;
+input [0:2]s;
+output [0:7]y;
+wire [0:2]sn;
+
+not(sn[2],s[2]);
+not(sn[1],s[1]);
+not(sn[0],s[0]);
+
+and(y[0],sn[2],sn[1],sn[0],d);
+and(y[1],sn[2],sn[1],s[0],d);
+and(y[2],sn[2],s[1],sn[0],d);
+and(y[3],sn[2],s[1],s[0],d);
+and(y[4],s[2],sn[1],sn[0],d);
+and(y[5],s[2],sn[1],s[0],d);
+and(y[6],s[2],s[1],sn[0],d);
+and(y[7],s[2],s[1],s[0],d);
+endmodule
+

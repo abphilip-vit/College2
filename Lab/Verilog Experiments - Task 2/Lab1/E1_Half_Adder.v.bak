@@ -1,0 +1,4 @@
+module E1_Half_Adder(a,b,s,c)
+input a,b;
+output s,c;
+endmodule;

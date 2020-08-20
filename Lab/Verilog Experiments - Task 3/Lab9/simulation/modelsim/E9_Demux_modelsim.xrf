@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, /home/18BIS0043/Desktop/Verilog Experiments/Lab9/E9_Demux.v
+source_file = 1, /home/18BIS0043/Desktop/Verilog Experiments/Lab9/db/E9_Demux.cbx.xml
+design_name = E9_Demux
+instance = comp, \y[7]~output , y[7]~output, E9_Demux, 1
+instance = comp, \y[6]~output , y[6]~output, E9_Demux, 1
+instance = comp, \y[5]~output , y[5]~output, E9_Demux, 1
+instance = comp, \y[4]~output , y[4]~output, E9_Demux, 1
+instance = comp, \y[3]~output , y[3]~output, E9_Demux, 1
+instance = comp, \y[2]~output , y[2]~output, E9_Demux, 1
+instance = comp, \y[1]~output , y[1]~output, E9_Demux, 1
+instance = comp, \y[0]~output , y[0]~output, E9_Demux, 1
+instance = comp, \s[1]~input , s[1]~input, E9_Demux, 1
+instance = comp, \d~input , d~input, E9_Demux, 1
+instance = comp, \s[0]~input , s[0]~input, E9_Demux, 1
+instance = comp, \s[2]~input , s[2]~input, E9_Demux, 1

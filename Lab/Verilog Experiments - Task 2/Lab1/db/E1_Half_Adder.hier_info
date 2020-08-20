@@ -1,0 +1,9 @@
+|E1_Half_Adder
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+c <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

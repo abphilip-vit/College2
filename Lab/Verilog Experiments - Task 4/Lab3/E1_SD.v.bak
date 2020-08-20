@@ -1,0 +1,4 @@
+module E1_SD (rst,clk,ip,op);
+output reg op;
+reg [2:0]state;
+reg [2:0]next_state;

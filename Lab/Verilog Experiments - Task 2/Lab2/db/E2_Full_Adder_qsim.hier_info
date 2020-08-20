@@ -1,0 +1,14 @@
+|E2_Full_Adder
+a => WideXor0.IN0
+a => x1.IN0
+a => x2.IN0
+b => WideXor0.IN1
+b => x1.IN1
+b => x3.IN0
+c => WideXor0.IN2
+c => x2.IN1
+c => x3.IN1
+s <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

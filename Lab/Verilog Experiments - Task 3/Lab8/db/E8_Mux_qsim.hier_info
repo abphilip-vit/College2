@@ -1,0 +1,36 @@
+|E8_Mux
+s[2] => WideAnd0.IN0
+s[2] => WideAnd1.IN0
+s[2] => WideAnd2.IN0
+s[2] => WideAnd3.IN0
+s[2] => WideAnd4.IN0
+s[2] => WideAnd5.IN0
+s[2] => WideAnd6.IN0
+s[2] => WideAnd7.IN0
+s[1] => WideAnd0.IN1
+s[1] => WideAnd1.IN1
+s[1] => WideAnd4.IN1
+s[1] => WideAnd5.IN1
+s[1] => WideAnd2.IN1
+s[1] => WideAnd3.IN1
+s[1] => WideAnd6.IN1
+s[1] => WideAnd7.IN1
+s[0] => WideAnd0.IN2
+s[0] => WideAnd2.IN2
+s[0] => WideAnd4.IN2
+s[0] => WideAnd6.IN2
+s[0] => WideAnd1.IN2
+s[0] => WideAnd3.IN2
+s[0] => WideAnd5.IN2
+s[0] => WideAnd7.IN2
+i[7] => WideAnd0.IN3
+i[6] => WideAnd1.IN3
+i[5] => WideAnd2.IN3
+i[4] => WideAnd3.IN3
+i[3] => WideAnd4.IN3
+i[2] => WideAnd5.IN3
+i[1] => WideAnd6.IN3
+i[0] => WideAnd7.IN3
+y <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

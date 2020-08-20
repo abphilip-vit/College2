@@ -1,0 +1,9 @@
+|E3_Half_Subtractor
+a => comb~0.IN0
+a => comb~1.IN0
+b => comb~0.IN1
+b => comb~1.IN1
+d <= comb~0.DB_MAX_OUTPUT_PORT_TYPE
+bo <= comb~1.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,11 @@
+|E4_Full_Subtractor
+a => WideXor0.IN0
+a => w1.IN0
+b => w1.IN1
+b => WideXor0.IN1
+c => comb.IN1
+c => WideXor0.IN2
+d <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+bo <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

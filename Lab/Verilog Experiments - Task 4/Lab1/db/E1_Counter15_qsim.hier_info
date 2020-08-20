@@ -1,0 +1,19 @@
+|E1_Counter15
+clk => c[0]~reg0.CLK
+clk => c[1]~reg0.CLK
+clk => c[2]~reg0.CLK
+clk => c[3]~reg0.CLK
+rst => c[0]~reg0.ACLR
+rst => c[1]~reg0.ACLR
+rst => c[2]~reg0.ACLR
+rst => c[3]~reg0.ACLR
+ud => c~8.OUTPUTSELECT
+ud => c~9.OUTPUTSELECT
+ud => c~10.OUTPUTSELECT
+ud => c~11.OUTPUTSELECT
+c[0] <= c[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

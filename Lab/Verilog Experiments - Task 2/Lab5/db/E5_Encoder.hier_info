@@ -1,0 +1,19 @@
+|E5_Encoder
+y[7] => WideOr0.IN0
+y[7] => WideOr1.IN0
+y[7] => WideOr2.IN0
+y[6] => WideOr0.IN1
+y[6] => WideOr1.IN1
+y[5] => WideOr0.IN2
+y[5] => WideOr2.IN1
+y[4] => WideOr0.IN3
+y[3] => WideOr1.IN2
+y[3] => WideOr2.IN2
+y[2] => WideOr1.IN3
+y[1] => WideOr2.IN3
+y[0] => ~NO_FANOUT~
+a[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+a[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+a[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+

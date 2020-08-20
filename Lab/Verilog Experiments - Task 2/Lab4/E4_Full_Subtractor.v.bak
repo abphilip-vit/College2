@@ -1,0 +1,14 @@
+module E4_Full_Subtractor(a,b,c,d,bo);
+input a,b,c;
+output d,bo;
+
+wire a_n,w1,w2,w3,w2_n;
+not(a_n,a);
+not(w2_n,w2);
+
+and(w1,a_n,b);
+xor(w2,a,b);
+xor(d,c,w2);
+and(w3,w2_n,c);
+or(bo,w3,w1);
+endmodule
